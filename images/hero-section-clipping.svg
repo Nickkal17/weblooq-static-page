@@ -1,0 +1,8 @@
+<svg width="660" height="220" style="outline: 1px solid red">  
+ <defs>  
+   <mask id="text-mask-1" x="0" y="0" width="100" height="100">  
+     <text x="30" y="140" font-family="Overpass" font-weight="Bold" font-size="7em" fill="#999">Weblooq</text>  
+   </mask>  
+ </defs>
+ <image width="660" height="495" xlink:href="hero-image.jpg" mask="url(#text-mask-1)"/>  
+</svg>
