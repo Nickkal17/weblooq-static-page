@@ -229,6 +229,7 @@
 
 .services-paragraph {
   margin: auto;
+  border-radius: 20px;
   width: 80%;
   padding: 20px;
   background-color: white;
@@ -236,18 +237,22 @@
 
 .services-paragraph p {
   text-align: left;
+  text-align: center;
+  font-size: 1.2em;
 }
 
 .website-types {
   display: flex;
   justify-content: space-evenly;
-  margin-top: 40px;
+  margin-top: 20px;
 }
 
 .development-type {
   display: flex;
   flex-direction: column;
   text-align: center;
+  padding: 20px;
+  margin: 20px;
 }
 .development-type h1 {
   padding: 20px;
@@ -385,6 +390,182 @@
   .service-card {
     margin: 0 auto;
   }
+}
+
+.development-type p {
+  text-align: center;
+}
+.development-type a {
+  width: 50%;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  color: black;
+  text-decoration: none;
+  border-bottom: 2px solid black;
+  text-align: center;
+}
+.development-type a:hover {
+  color: tomato;
+  border-color: tomato;
+}
+.development-type {
+  transition: all 0.4s ease;
+}
+.development-type:hover {
+  transform: scale(1.1);
+  box-shadow: 2px 4px 8px 2px rgba(0, 0, 0, 0.2);
+}
+
+/*static page svg animation*/
+.static-page-details {
+  transition: 0.4s ease;
+}
+.static-page:hover svg .button-1 {
+  fill: tomato;
+}
+.static-page:hover svg .button-2 {
+  fill: #fbbd2e;
+}
+.static-page:hover svg .button-3 {
+  fill: #2aca40;
+}
+.static-page svg {
+  transition: all 0.5s ease;
+}
+.static-page:hover svg {
+  transform: scale(1.1);
+}
+
+/*dynamic page svg animation*/
+.dynamic-page-details {
+  transition: 0.4s ease;
+}
+.dynamic-page svg {
+  transition: all 0.5s ease;
+}
+.dynamic-page:hover svg {
+  transform: scale(1.1);
+}
+.dynamic-page:hover svg .detail-1 {
+  fill: tomato;
+}
+.dynamic-page:hover svg .detail-2 {
+  fill: #fbbd2e;
+}
+.dynamic-page:hover svg .detail-3 {
+  fill: #2aca40;
+}
+/*Eshop svg animation*/
+.eshop-detail {
+  transition: 0.4s ease;
+}
+
+.eshop:hover svg .detail-box-1 {
+  fill: #34bb62;
+}
+.eshop:hover svg .detail-box-2 {
+  fill: #ffa547;
+}
+.eshop:hover svg .detail-box-3 {
+  fill: #3184a0;
+}
+.eshop:hover svg .detail-box-4 {
+  fill: #ff6347;
+}
+
+.eshop svg {
+  transition: all 0.5s ease;
+}
+.eshop:hover svg {
+  transform: scale(1.1);
+}
+
+/*Blog svg animation*/
+.blog-details {
+  transition: 0.4s ease;
+}
+
+.blog:hover svg .box-2 {
+  fill: tomato;
+}
+.blog:hover svg .box-3 {
+  fill: #fbbd2e;
+}
+.blog:hover svg .box-4 {
+  fill: #2aca40;
+}
+
+.blog svg {
+  transition: all 0.5s ease;
+}
+.blog:hover svg {
+  transform: scale(1.1);
+}
+
+.blog:hover svg .paragraph-det-1 {
+  fill: #ff3838;
+}
+.blog:hover svg .paragraph-det-2 {
+  fill: #d83131;
+}
+.blog:hover svg .paragraph-det-3 {
+  fill: #a02525;
+}
+.blog:hover svg .paragraph-det-4 {
+  fill: #fd6464;
+}
+
+.contact-us-section {
+  padding: 50px;
+}
+
+.contact-form {
+  background-color: whitesmoke;
+  display: flex;
+  width: 65%;
+  margin: auto;
+  box-shadow: 0px 0px 26px 1px rgba(0, 0, 0, 0.5);
+}
+
+.contact-info {
+  width: 300px;
+  background-color: #3184a0;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: -40px;
+  padding: 60px 30px 30px 30px;
+  height: 350px;
+  box-shadow: 0px 0px 26px 1px rgba(0, 0, 0, 0.5);
+  color: white;
+}
+
+.contact-info h1 {
+  padding-bottom: 40px;
+}
+.contact-info h3 {
+  padding-bottom: 30px;
+}
+.contact-info h3 > i {
+  margin-right: 8px;
+}
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  padding: 40px;
+  width: 40%;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 40px;
+}
+
+.social-icons a > i {
+  font-size: 1.9em;
+  color: white;
 }
 
 @media (max-width: 893px) {
